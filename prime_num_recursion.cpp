@@ -16,7 +16,8 @@ int main(){
     else if((n==1)|(n==0)){
         cout<<"0 and 1 cant be checked for prime\n";
     }
-    else{
+    else
+    {
     res=prime_check(n,3);
     }    
     cout<<res;
